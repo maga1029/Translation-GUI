@@ -1,0 +1,17 @@
+Este programa está diseñado para traducir de un idioma a otro por palabras, oraciones o párrafos. En la primera y tercera casilla, debe escribir la dirección completa del archivo del que se va a traducir y la dirección completa en donde se va a crear el archivo con las traducciones del formato siguiente: C:/Carpeta/Subcarpeta/.../Última subcarpeta. Los nombres de las carpetas deben de ir como aparecen, incluyendo espacios y caracteres especiales.
+
+En la segunda casilla, debe ingresar el nombre del archivo del que se quiere traducir. Debe ser un archivo PDF. El nombre debe ir tal cual aparece, y puede o no incluir la extensión .pdf. En la cuarta casilla, debe seleccionar un nombre de archivo. No debe quedar en blanco. Si ya existe un archivo con ese nombre en la carpeta de destino, no se reescribirá el archivo y quedará nombrado como Archivo_1.extension.
+
+Después, debe seleccionar el botón de modo, el cuál separará el contenido del archivo en palabras, oraciones o párrafos. En caso de que se escoja el modo por palabras, el programa lematizará (pondrá en forma base las palabras) y eliminará las lematizaciones repetidas, por lo que cada palabra debe aparecer una sola vez en los archivos creados.
+
+Después, debe seleccionar el tipo de archivo que se creará. Si elige Excel, se creará un archivo .xlsx que tendrá dos columnas: la primera tendrá la parte original y la segunda la traducida. Si elige Word, se creará un archivo .docx que tendrá el siguiente formato:
+
+Original: Parte original
+
+Traducido: Parte traducida
+
+---
+
+Por último, debe seleccionar el idioma del archivo original y el idioma al que se traducirá ese archivo. No deben ser los mismos. Si desea cambiar o agregar alguna funcionalidad, deberá hacerlo en el código base.
+
+Nota: La traducción a palabras y la eliminación de nombres propios no es 100 % confiable, por lo que deberá revisar el resultado de la traducción. La traducción por párrafos puede no separarlos correctamente.
