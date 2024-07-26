@@ -10,6 +10,8 @@ Original: Original part
 
 Translated: Translated part
 
+\---
+
 Finally, you must select the language of the original file and the language to which it will be translated. They must not be the same. If you want to change or add any functionality, you must do so in the base code.
 
 Note: Translating to words and removing proper names is not 100% reliable, so you will need to review the translation result. Translation by paragraphs may not separate them correctly. The program checks for most errors.
